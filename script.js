@@ -4,9 +4,12 @@ const body = document.querySelector('body'),
       search = body.querySelector('.search-box'),
       modeSwitch = body.querySelector('.toggle-switch'),
       modeText = body.querySelector('.mode-text');
+      login = body.querySelector('.login');
 
       toggle.addEventListener('click', () =>{
             sidebar.classList.toggle('close');
+
+            login.classList.toggle('hide-login');
       });
 
       search.addEventListener('click', () =>{
@@ -22,5 +25,7 @@ const body = document.querySelector('body'),
                   modeText.innerHTML = 'Dark Mode'
             }
       });
+
+
 
       

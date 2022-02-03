@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@500&display=swap');
+
+:root {
+    /*===== Cores =====*/
+    --body-color: #b0c0ec;
+    --sidebar-color: #FFF;
+    --primary-color: #889ec0b4;
+    --primary-color-light: #F6F5FF;
+    --toggle-color: rgb(194, 188, 188);
+    --text-color: #474545;
+
+    /*====== Transição =====*/
+    --tran-02:  all 0.2s ease;
+    --tran-03:  all 0.3s ease;
+    --tran-04:  all 0.4s ease;
+    --tran-05:  all 0.5s ease;
+}
+
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body { 
+    height: 100vh;
+    background: linear-gradient(201deg, #b0c0ec, rgb(194, 188, 188));
+    transition: var(--tran-02);
+}
+
+.login {
+    width: 400px;
+    height: 500px;
+    border-radius: 40px ;
+    background: var(--primary-color);
+    left: 50%;
+}

@@ -294,7 +294,7 @@ body.dark .switch::before{
 }
 
 /*====== area de conteudo =====*/
-.home { 
+.conteudo { 
     position: relative;
     left: 260px;
     height: 100vh;
@@ -304,7 +304,7 @@ body.dark .switch::before{
 }
 
 /*======  conf do texto =====*/
-.home .text {
+.conteudo .text {
     font-size: 30px;
     font-weight: bold;
     color: var(--text-color);
@@ -313,7 +313,7 @@ body.dark .switch::before{
 }
 
 /*====== side bar fechada calc =====*/
-.sidebar.close ~ .home {
+.sidebar.close ~ .conteudo {
     left: 90px;
     width: calc(100% - 97px);
 }
@@ -340,6 +340,10 @@ body.dark .switch::before{
 
 .home .login:hover {
     background: var(--primary-color)
+}
+
+.hide-login {
+    display: none;
 }
 
 .home .login #textl a:hover {
