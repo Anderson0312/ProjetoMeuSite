@@ -37,3 +37,7 @@ body {
     background: var(--primary-color);
     left: 50%;
 }
+
+main {
+    margin: auto;
+}
