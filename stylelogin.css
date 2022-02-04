@@ -60,7 +60,7 @@ body {
 
 .button .txtbutton {
     display: block;
-    margin-top: 50px;
+    margin-top: 20px;
     margin-left: auto;
     margin-right: auto;
     position: relative;
@@ -88,6 +88,24 @@ body {
     text-align: center;
     margin-top: 30px;
 
+}
+
+.checkbox  {
+    text-align: center;
+    font-size: 13px;
+    margin-top: 5px;
+    color: var(--text-color);
+}
+
+
+p#register {
+    text-align: center;
+    margin: 3px;
+}
+
+p .txtefet{
+    color: var(--text-color);
+    font-size: 13px;
 }
 
 .button .txtbutton:hover {
