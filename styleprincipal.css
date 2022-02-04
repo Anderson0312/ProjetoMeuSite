@@ -328,7 +328,7 @@ body.dark .switch::before{
     width: 60px;
     border-radius: 12px;  
     background: var(--toggle-color);
-    transition: var(--tran-04)
+    transition: var(--tran-03);
 }
 
 .home .login #textl a {
@@ -338,14 +338,23 @@ body.dark .switch::before{
     text-decoration: none;
 }
 
+body.dark .login #textl a {
+    color: var(--sidebar-color);
+}
+
+body.dark .login #textl a:hover {
+    color: var(--text-color);
+}
+
 .home .login:hover {
-    background: var(--primary-color)
+    background: var(--primary-color);
+    
 }
 
 .hide-login {
-    display: none;
+    position: relative;
 }
 
 .home .login #textl a:hover {
-    color: var(--primary-color-light);
+    color: var(--sidebar-color)
 }
