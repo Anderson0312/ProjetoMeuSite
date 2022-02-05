@@ -358,3 +358,28 @@ body.dark .login #textl a:hover {
 .home .login #textl a:hover {
     color: var(--sidebar-color)
 }
+
+footer .midiass {
+    width: 100%;
+    height: 100px;
+    background: rgba(0, 0, 0, 0.781);
+    color: var(--primary-color-light);
+    padding: 20px;
+}
+
+footer .h3foot {
+    font-size: 10px;
+    font-family: arial,sans-serif;
+    text-align: center;
+}
+
+footer .copy {
+    width: 100%;
+    padding: 6px;
+    font-size: 7px;
+    background:rgba(0, 0, 0, 0.836);
+    color: var(--primary-color-light);
+    text-align: center;
+    font-family: arial,sans-serif;
+}
+
