@@ -359,27 +359,86 @@ body.dark .login #textl a:hover {
     color: var(--sidebar-color)
 }
 
-footer .midiass {
-    width: 100%;
-    height: 100px;
-    background: rgba(0, 0, 0, 0.781);
-    color: var(--primary-color-light);
-    padding: 20px;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer start */
+footer {
+
 }
 
-footer .h3foot {
+footer .midiass {
+    width: 120%;
+    height: 100px;
+    background: rgba(0, 0, 0, 0.781);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: var(--primary-color-light);  
+}
+
+.h3foot {
     font-size: 10px;
     font-family: arial,sans-serif;
+    margin-top: 20px;
     text-align: center;
+}
+
+.social-list {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+
+.social-list li {
+    margin: 5px;
+}
+
+.social-list a {
+    text-decoration: none;
+    color: var(--primary-color-light);
+}
+
+.social-list a i {
+    font-size: 15px;
+    transition: var(--tran-03)
+}
+
+.social-list a:hover i {
+    color: var(--primary-color)
 }
 
 footer .copy {
     width: 100%;
-    padding: 6px;
-    font-size: 7px;
+    font-size: 8px;
     background:rgba(0, 0, 0, 0.836);
     color: var(--primary-color-light);
     text-align: center;
     font-family: arial,sans-serif;
 }
 
+/* footer end */
