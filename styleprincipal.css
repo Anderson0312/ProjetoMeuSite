@@ -386,11 +386,13 @@ body.dark .login #textl a:hover {
 
 /* footer start */
 footer {
-
+    position: relative;
+    width: 100%;
 }
 
 footer .midiass {
-    width: 120%;
+    position: absolute;
+    width: 100%;
     height: 100px;
     background: rgba(0, 0, 0, 0.781);
     display: flex;
